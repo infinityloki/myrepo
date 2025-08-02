@@ -1,0 +1,35 @@
+esxcfg-route -l
+ esxcli network ip interface ipv4 get
+esxcli network ip neighbor list
+esxcli network ip route ipv4 list
+
+P Pranita Kumari  to  Everyone 11:02
+esxcli network nic list
+
+Meenu Dharshini T  to  Everyone 11:04
+
+P Pranita Kumari  to  Everyone 11:04
+vmnic0 b0:26:28:f8:31:88
+
+sunil  to  Everyone 11:30
+STLSMORCGRADC500# sh ip arp 135.50.130.29
+
+Flags: * - Adjacencies learnt on non-active FHRP router
+       + - Adjacencies synced via CFSoE
+       # - Adjacencies Throttled for Glean
+       D - Static Adjacencies attached to down interface
+
+IP ARP Table
+Total number of entries: 1
+Address         Age       MAC Address     Interface
+135.50.130.29   00:03:22  b026.28fc.024e  Vlan670
+STLSMORCGRADC500#
+
+sunil  to  Everyone 11:44
+000c.2940.cfe1
+
+P Pranita Kumari  to  Everyone 11:44
+device with duplicate ip - 00:0c:29:40:cf:e1
+
+rkaruppiah5 11:50
+Pranitha
